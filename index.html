@@ -11,6 +11,15 @@
       <input type="text" id="taskInput" placeholder="Type task" />
       <button id="addTask" type="submit">Add New</button>
       <p id="errorMessage"></p>
+      <div>
+        <label for="filter">Filter:</label>
+        <select id="filter">
+          <option value="all">All Tasks</option>
+          <option value="done">Completed Tasks</option>
+          <option value="undone">Incomplete Tasks</option>
+        </select>
+      </div>
+
       <div class="list-container">
         <h4 class="list-title">Todos</h4>
         <ul id="taskList"></ul>
